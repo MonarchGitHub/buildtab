@@ -1,0 +1,25 @@
+.app {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.todo-list input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 70%;
+}
+
+.todo-list button {
+  padding: 10px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo button {
+  margin-left: 10px;
+}
