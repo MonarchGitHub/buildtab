@@ -3,7 +3,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      FontFace: {
+        // 'manrope': ['manrope', 'sans-serif'],
+        // 'Protest': ['Protest Guerrilla', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 }
